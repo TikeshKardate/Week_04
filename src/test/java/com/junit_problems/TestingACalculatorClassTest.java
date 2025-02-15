@@ -3,9 +3,9 @@ package com.junit_problems;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
 
-public class TestingACalculatorClassTest{
+public class TestingACalculatorClassTest {
 
-    Problem1 calculator = new Problem1();
+    TestingACalculatorClassTest calculator = new TestingACalculatorClassTest();
 
     @Test
     void testAddition() {
