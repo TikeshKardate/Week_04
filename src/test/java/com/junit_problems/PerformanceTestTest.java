@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 class PerformanceTestTest {
 
-    private final PerformanceTester tester = new PerformanceTester();
+    private final PerformanceTest tester = new PerformanceTest();
 
     @Test
     @Timeout(value = 2, unit = TimeUnit.SECONDS) // Fails if execution takes longer than 2 sec

@@ -1,16 +1,18 @@
 package com.junit_problems;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class TestingAnnotationsTest {
 
-    private DatabaseConnection dbConnection;
+    private TestingAnnotations dbConnection;
 
     @BeforeEach
     void setUp() {
-        dbConnection = new DatabaseConnection();
+        dbConnection = new TestingAnnotations();
         dbConnection.connect();
     }
 

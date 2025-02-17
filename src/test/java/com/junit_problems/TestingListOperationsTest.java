@@ -8,12 +8,12 @@ import java.util.List;
 
 class TestingListOperationsTest {
 
-        private ListManager listManager;
+        private TestingListOperations listManager;
         private List<Integer> testList;
 
         @BeforeEach
         void setUp() {
-            listManager = new ListManager();
+            listManager = new TestingListOperations();
             testList = new ArrayList<>();
         }
 

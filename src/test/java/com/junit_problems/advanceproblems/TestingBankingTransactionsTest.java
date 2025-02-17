@@ -1,16 +1,17 @@
 package com.junit_problems.advanceproblems;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class TestingBankingTransactionsTest {
 
-    private BankAccount account;
+    private TestingBankingTransactions account;
 
     @BeforeEach
     void setup() {
-        account = new BankAccount(100.0); // Initialize with $100
+        account = new TestingBankingTransactions(100.0); // Initialize with $100
     }
 
     @Test

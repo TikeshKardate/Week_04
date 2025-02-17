@@ -5,7 +5,7 @@ import org.junit.jupiter.api.*;
 
 public class TestingACalculatorClassTest {
 
-    TestingACalculatorClassTest calculator = new TestingACalculatorClassTest();
+    TestingACalculatorClass calculator = new TestingACalculatorClass();
 
     @Test
     void testAddition() {

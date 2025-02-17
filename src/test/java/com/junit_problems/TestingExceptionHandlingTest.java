@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TestingExceptionHandlingTest {
 
-    private final MathOperations mathOperations = new MathOperations();
+    private final TestingExceptionHandling mathOperations = new TestingExceptionHandling();
 
     @Test
     void testDivideByNonZero() {

@@ -20,6 +20,10 @@ public class TestingACalculatorClass
     public int multiply(int a, int b) {
         return a * b;
     }
+    public float divide(int a, int b) {
+        return (float)a / b;
+    }
+
 
     public static void main(String[] args) {
         int ans=add(5,5);

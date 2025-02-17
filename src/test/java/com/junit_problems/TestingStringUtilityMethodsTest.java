@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TestingStringUtilityMethodsTest {
 
-    StringUtils stringUtils = new StringUtils();
+    TestingStringUtilityMethods stringUtils = new TestingStringUtilityMethods();
 
     @Test
     void testReverse() {
